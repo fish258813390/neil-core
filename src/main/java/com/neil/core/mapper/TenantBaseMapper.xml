@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yolly.platform.core.mapper.TenantBaseMapper">
+
+    <sql id="baseSelectColumns">
+        id,<include refid="com.yolly.platform.core.mapper.TenantBaseMapper.baseSelectColumnsAndNoId"/>
+    </sql>
+
+    <sql id="baseSelectColumnsAndNoId">
+        <include refid="com.yolly.platform.core.mapper.TenantBaseMapper.baseSelectColumnsAndNoIdAndNoDataStatus"/> data_status,
+    </sql>
+
+    <sql id="baseSelectColumnsAndNoDataStatus">
+        id,<include refid="com.yolly.platform.core.mapper.TenantBaseMapper.baseSelectColumnsAndNoIdAndNoDataStatus"/>
+    </sql>
+
+    <sql id="baseSelectColumnsAndNoIdAndNoDataStatus">
+        add_user_id,add_date_time,modify_user_id,modify_date_time,tenant_id,
+    </sql>
+
+
+    <sql id="baseSelectColumnsForTemp">
+        temp.id,<include refid="com.yolly.platform.core.mapper.TenantBaseMapper.baseSelectColumnsForTempAndNoId"/>
+    </sql>
+
+    <sql id="baseSelectColumnsForTempAndNoId">
+        <include refid="com.yolly.platform.core.mapper.TenantBaseMapper.baseSelectColumnsForTempAndNoIdAndNoDataStatus"/> data_status,
+    </sql>
+
+    <sql id="baseSelectColumnsForTempAndNoDataStatus">
+        temp.id,<include refid="com.yolly.platform.core.mapper.TenantBaseMapper.baseSelectColumnsForTempAndNoIdAndNoDataStatus"/>
+    </sql>
+
+    <sql id="baseSelectColumnsForTempAndNoIdAndNoDataStatus">
+        temp.add_user_id,temp.add_date_time,temp.modify_user_id,temp.modify_date_time,temp.tenant_id,
+    </sql>
+
+
+    <sql id="baseSelectColumnsForT">
+        t.id,<include refid="com.yolly.platform.core.mapper.TenantBaseMapper.baseSelectColumnsForTAndNoId"/>
+    </sql>
+
+    <sql id="baseSelectColumnsForTAndNoId">
+        <include refid="com.yolly.platform.core.mapper.TenantBaseMapper.baseSelectColumnsForTAndNoIdAndNoDataStatus"/> t.data_status,
+    </sql>
+
+    <sql id="baseSelectColumnsForTAndNoDataStatus">
+        t.id,<include refid="com.yolly.platform.core.mapper.TenantBaseMapper.baseSelectColumnsForTAndNoIdAndNoDataStatus"/>
+    </sql>
+
+    <sql id="baseSelectColumnsForTAndNoIdAndNoDataStatus">
+        t.add_user_id,t.add_date_time,t.modify_user_id,t.modify_date_time,t.tenant_id,
+    </sql>
+
+
+    <!-- 通用基础字段修改 -->
+    <sql id="upateValueBySelectiveBaseColumn">
+        <if test="addUserId != null">
+            add_user_id=#{addUserId,jdbcType=VARCHAR},
+        </if>
+        <if test="addDateTime != null">
+            add_date_time=#{addDateTime,jdbcType=TIMESTAMP},
+        </if>
+        <if test="modifyUserId != null">
+            modify_user_id=#{modifyUserId,jdbcType=VARCHAR},
+        </if>
+        <if test="modifyDateTime != null">
+            modify_date_time= #{modifyDateTime,jdbcType=TIMESTAMP},
+        </if>
+        <if test="dataStatus != null">
+            data_status=#{dataStatus,jdbcType=NUMERIC},
+        </if>
+        <if test="tenantId != null">
+            tenant_id=#{tenantId,jdbcType=VARCHAR},
+        </if>
+    </sql>
+
+    <!-- 通用基础字段修改 -->
+    <sql id="upateValueBySelectiveBaseColumnByDefualtTime">
+        <if test="addUserId != null">
+            add_user_id=#{addUserId,jdbcType=VARCHAR},
+        </if>
+        <if test="addDateTime != null">
+            add_date_time=#{addDateTime,jdbcType=TIMESTAMP},
+        </if>
+        <if test="modifyUserId != null">
+            modify_user_id=#{modifyUserId,jdbcType=VARCHAR},
+        </if>
+        <if test="modifyDateTime != null">
+            modify_date_time= #{modifyDateTime,jdbcType=TIMESTAMP},
+        </if>
+        <if test="modifyDateTime == null">
+            modify_date_time= sysdate,
+        </if>
+        <if test="dataStatus != null">
+            data_status=#{dataStatus,jdbcType=NUMERIC},
+        </if>
+        <if test="tenantId != null">
+            tenant_id=#{tenantId,jdbcType=VARCHAR},
+        </if>
+    </sql>
+
+    <!-- 通用基础字段保存 -->
+    <sql id="saveByBaseColumn">
+        id,<include refid="com.yolly.platform.core.mapper.TenantBaseMapper.saveByBaseColumnAndNoId"/>
+    </sql>
+
+    <sql id="saveByBaseColumnAndNoDataStatus">
+        id,<include refid="com.yolly.platform.core.mapper.TenantBaseMapper.saveByBaseColumnAndNoIdAndNoDataStatus"/>
+    </sql>
+
+    <sql id="saveByBaseColumnAndNoId">
+        <include refid="com.yolly.platform.core.mapper.TenantBaseMapper.saveByBaseColumnAndNoIdAndNoDataStatus"/> data_status,
+    </sql>
+
+    <sql id="saveByBaseColumnAndNoIdAndNoDataStatus">
+        add_user_id,
+        add_date_time,
+        modify_user_id,
+        modify_date_time,
+        tenant_id,
+    </sql>
+
+    <!-- 通用基础字段保存 -->
+    <sql id="saveBySelectiveBaseColumn">
+        id,<include refid="com.yolly.platform.core.mapper.TenantBaseMapper.saveBySelectiveBaseColumnAndNoId"/>
+    </sql>
+
+
+    <sql id="saveBySelectiveBaseColumnAndNoId">
+        <if test="addUserId != null">
+            add_user_id,
+        </if>
+        <if test="addDateTime != null">
+            add_date_time,
+        </if>
+        <if test="modifyUserId != null">
+            modify_user_id,
+        </if>
+        <if test="modifyDateTime != null">
+            modify_date_time,
+        </if>
+        <if test="dataStatus != null">
+            data_status,
+        </if>
+        <if test="tenantId != null">
+            tenant_id,
+        </if>
+    </sql>
+
+
+    <!-- 通用基础字段保存(添加时间默认去系统当前时间)-->
+    <sql id="saveBySelectiveBaseColumnByDefaultTime">
+        id,<include refid="com.yolly.platform.core.mapper.TenantBaseMapper.saveBySelectiveBaseColumnByDefaultTimeAndNoId"/>
+    </sql>
+
+    <sql id="saveBySelectiveBaseColumnByDefaultTimeAndNoId">
+        <if test="addUserId != null">
+            add_user_id,
+        </if>
+        add_date_time,
+        <if test="modifyUserId != null">
+            modify_user_id,
+        </if>
+        <if test="modifyDateTime != null">
+            modify_date_time,
+        </if>
+        <if test="dataStatus != null">
+            data_status,
+        </if>
+        <if test="tenantId != null">
+            tenant_id,
+        </if>
+    </sql>
+
+    <!-- 批量插入通用基础字段设置值保存 -->
+    <sql id="saveValueBatchByBaseColumn">
+        #{item.id},<include refid="com.yolly.platform.core.mapper.TenantBaseMapper.saveValueBatchByBaseColumnAndNoId"/>
+    </sql>
+
+    <sql id="saveValueBatchByBaseColumnAndNoId">
+        #{item.addUserId,jdbcType=VARCHAR},
+        #{item.addDateTime,jdbcType=TIMESTAMP},
+        #{item.modifyUserId,jdbcType=VARCHAR},
+        #{item.modifyDateTime,jdbcType=TIMESTAMP},
+        #{item.dataStatus,jdbcType=NUMERIC},
+        #{item.tenantId,jdbcType=VARCHAR},
+    </sql>
+
+    <sql id="saveValueBatchByBaseColumnAndNoIdAndNoDataStatus">
+        #{item.addUserId,jdbcType=VARCHAR},
+        #{item.addDateTime,jdbcType=TIMESTAMP},
+        #{item.modifyUserId,jdbcType=VARCHAR},
+        #{item.modifyDateTime,jdbcType=TIMESTAMP},
+        #{item.tenantId,jdbcType=VARCHAR},
+    </sql>
+
+    <sql id="saveValueBatchByBaseColumnByDefualtTime">
+        #{item.id},<include refid="com.yolly.platform.core.mapper.TenantBaseMapper.saveValueBatchByBaseColumnByDefualtTimeAndNoId"/>
+    </sql>
+
+    <sql id="saveValueBatchByBaseColumnByDefualtTimeAndNoId">
+        #{item.addUserId,jdbcType=VARCHAR},
+        sysdate,
+        #{item.modifyUserId,jdbcType=VARCHAR},
+        #{item.modifyDateTime,jdbcType=TIMESTAMP},
+        #{item.dataStatus,jdbcType=NUMERIC},
+        #{item.tenantId,jdbcType=VARCHAR},
+    </sql>
+
+    <sql id="saveValueBatchByBaseColumnByDefualtTimeAndNoIdAndNoDataStatus">
+        #{item.addUserId,jdbcType=VARCHAR},
+        sysdate,
+        #{item.modifyUserId,jdbcType=VARCHAR},
+        #{item.modifyDateTime,jdbcType=TIMESTAMP},
+        #{item.tenantId,jdbcType=VARCHAR},
+    </sql>
+
+    <!-- 批量插入通用基础字段设置值保存 -->
+    <sql id="saveValueBatchBySelectiveBaseColumn">
+        #{item.id},<include refid="com.yolly.platform.core.mapper.TenantBaseMapper.saveValueBatchBySelectiveBaseColumnAndNoId"/>
+    </sql>
+
+    <sql id="saveValueBatchBySelectiveBaseColumnAndNoId">
+        <if test="item.addUserId != null">
+            #{item.addUserId,jdbcType=VARCHAR},
+        </if>
+        <if test="item.addDateTime != null">
+            #{item.addDateTime,jdbcType=VARCHAR},
+        </if>
+        <if test="item.modifyUserId != null">
+            #{item.modifyUserId,jdbcType=VARCHAR},
+        </if>
+        <if test="item.modifyDateTime != null">
+            #{item.modifyDateTime,jdbcType=VARCHAR},
+        </if>
+        <if test="item.dataStatus != null">
+            #{item.dataStatus,jdbcType=NUMERIC},
+        </if>
+        <if test="item.tenantId != null">
+            #{item.tenantId,jdbcType=VARCHAR},
+        </if>
+    </sql>
+
+    <!-- 批量插入通用基础字段设置值保存(添加时间默认去系统当前时间)-->
+    <sql id="saveValueBatchBySelectiveBaseColumnByDefualtTime">
+        #{item.id},<include refid="com.yolly.platform.core.mapper.TenantBaseMapper.saveValueBatchBySelectiveBaseColumnByDefualtTimeAndNoId"/>
+    </sql>
+
+
+    <sql id="saveValueBatchBySelectiveBaseColumnByDefualtTimeAndNoId">
+        <if test="item.addUserId != null">
+            #{item.addUserId,jdbcType=VARCHAR},
+        </if>
+        sysdate,
+        <if test="item.modifyUserId != null">
+            #{item.modifyUserId,jdbcType=VARCHAR},
+        </if>
+        <if test="item.modifyDateTime != null">
+            #{item.modifyDateTime,jdbcType=VARCHAR},
+        </if>
+        <if test="item.dataStatus != null">
+            #{item.dataStatus,jdbcType=NUMERIC},
+        </if>
+        <if test="item.tenantId != null">
+            #{item.tenantId,jdbcType=VARCHAR},
+        </if>
+    </sql>
+
+    <!-- 通用基础字段设置值保存 -->
+    <sql id="saveValueBySelectiveBaseColumn">
+        #{id},<include refid="com.yolly.platform.core.mapper.TenantBaseMapper.saveValueBySelectiveBaseColumnAndNoId"/>
+    </sql>
+
+
+    <sql id="saveValueBySelectiveBaseColumnAndNoId">
+        <if test="addUserId != null">
+            #{addUserId,jdbcType=VARCHAR},
+        </if>
+        <if test="addDateTime != null">
+            #{addDateTime,jdbcType=VARCHAR},
+        </if>
+        <if test="modifyUserId != null">
+            #{modifyUserId,jdbcType=VARCHAR},
+        </if>
+        <if test="modifyDateTime != null">
+            #{modifyDateTime,jdbcType=VARCHAR},
+        </if>
+        <if test="dataStatus != null">
+            #{dataStatus,jdbcType=NUMERIC},
+        </if>
+        <if test="tenantId != null">
+            #{tenantId,jdbcType=VARCHAR},
+        </if>
+    </sql>
+
+    <!-- 通用基础字段设置值保存(添加时间默认去系统当前时间)-->
+    <sql id="saveValueBySelectiveBaseColumnByDefualtTime">
+        #{id},<include refid="com.yolly.platform.core.mapper.TenantBaseMapper.saveValueBySelectiveBaseColumnByDefualtTimeAndNoId"/>
+    </sql>
+
+    <sql id="saveValueBySelectiveBaseColumnByDefualtTimeAndNoId">
+        <if test="addUserId != null">
+            #{addUserId,jdbcType=VARCHAR},
+        </if>
+        sysdate,
+        <if test="modifyUserId != null">
+            #{modifyUserId,jdbcType=VARCHAR},
+        </if>
+        <if test="modifyDateTime != null">
+            #{modifyDateTime,jdbcType=VARCHAR},
+        </if>
+        <if test="dataStatus != null">
+            #{dataStatus,jdbcType=NUMERIC},
+        </if>
+        <if test="tenantId != null">
+            #{tenantId,jdbcType=VARCHAR},
+        </if>
+    </sql>
+
+</mapper>
