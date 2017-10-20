@@ -17,7 +17,7 @@ public class ZooKeeperPropertyPlaceholderConfigurer extends PropertyPlaceholderC
 
     private Properties properties = new Properties();
 
-    public void setYollyProp(Set<String> props) {
+    public void setNeilProp(Set<String> props) {
         for (String propName : props) {
             Properties prop = new Properties();
             try {

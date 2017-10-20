@@ -22,7 +22,7 @@ import com.neil.core.annotation.service.annotation.Statistics;
 import com.neil.core.db.datasource.JdbcContext;
 
 /**
- * @author wanghuajian 2015-5-21
+ * @author neil 2015-5-21
  *
  */
 @Deprecated

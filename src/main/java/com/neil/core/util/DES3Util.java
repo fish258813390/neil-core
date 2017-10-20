@@ -10,7 +10,7 @@ import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 
 /**
- * @author wanghuajian 2015-7-1
+ * @author neil 2015-7-1
  * 使用该类方法进行加密必须使用该类方法解密，主要用来加密报文
  */
 public class DES3Util {

@@ -4,7 +4,7 @@
 package com.neil.core.util;
 
 /**
- * @author wanghuajian 2014-9-10
+ * @author neil 2014-9-10
  *
  */
 public class HexUtil {

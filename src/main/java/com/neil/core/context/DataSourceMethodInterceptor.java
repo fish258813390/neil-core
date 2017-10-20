@@ -14,7 +14,7 @@ import org.springframework.aop.ThrowsAdvice;
 import java.lang.reflect.Method;
 
 /**
- * @author wanghuajian 2016年9月13日
+ * @author neil 2016年9月13日
  *
  */
 public class DataSourceMethodInterceptor implements MethodBeforeAdvice,AfterReturningAdvice,ThrowsAdvice{

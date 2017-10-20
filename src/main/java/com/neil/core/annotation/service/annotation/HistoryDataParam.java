@@ -3,7 +3,7 @@ package com.neil.core.annotation.service.annotation;
 import java.lang.annotation.*;
 
 /**
- * @author wanghuajian 2015-6-8
+ * @author neil 2015-6-8
  *
  */
 @Documented

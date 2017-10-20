@@ -1,7 +1,191 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86c3c0b5-3598-40fe-bd52-688e80126e3f" name="Default" comment="" />
+    <list default="true" id="86c3c0b5-3598-40fe-bd52-688e80126e3f" name="Default" comment="添加工具类备注">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_14_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_2_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/controller/annotation/Function.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/controller/annotation/class-use/Function.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/controller/annotation/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/controller/annotation/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/controller/annotation/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/controller/annotation/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/service/annotation/DataSource.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/service/annotation/HistoryDataParam.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/service/annotation/MethodRemark.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/service/annotation/NullLog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/service/annotation/Slave.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/service/annotation/Statistics.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/service/annotation/class-use/DataSource.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/service/annotation/class-use/HistoryDataParam.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/service/annotation/class-use/MethodRemark.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/service/annotation/class-use/NullLog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/service/annotation/class-use/Slave.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/service/annotation/class-use/Statistics.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/service/annotation/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/service/annotation/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/service/annotation/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/annotation/service/annotation/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/config/AppVariable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/config/SystemConfig.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/config/class-use/AppVariable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/config/class-use/SystemConfig.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/config/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/config/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/config/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/config/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/context/ApplicationConfig.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/context/DataSourceMethodInterceptor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/context/MethodLogInterceptor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/context/PerformanceMonitor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/context/ServiceMethodInterceptor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/context/SpringApplicationContext.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/context/YollyPropertyPlaceholderConfigurer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/context/class-use/ApplicationConfig.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/context/class-use/DataSourceMethodInterceptor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/context/class-use/MethodLogInterceptor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/context/class-use/PerformanceMonitor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/context/class-use/ServiceMethodInterceptor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/context/class-use/SpringApplicationContext.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/context/class-use/YollyPropertyPlaceholderConfigurer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/context/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/context/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/context/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/context/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/converter/DateConverter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/converter/class-use/DateConverter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/converter/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/converter/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/converter/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/converter/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/db/datasource/DynamicDataSource.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/db/datasource/JdbcContext.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/db/datasource/MyBatisPerformanceInterceptor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/db/datasource/class-use/DynamicDataSource.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/db/datasource/class-use/JdbcContext.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/db/datasource/class-use/MyBatisPerformanceInterceptor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/db/datasource/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/db/datasource/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/db/datasource/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/db/datasource/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/jms/SendMessageCreator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/jms/class-use/SendMessageCreator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/jms/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/jms/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/jms/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/jms/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/logger/log4j/CustomDailyRollingFileAppender.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/logger/log4j/class-use/CustomDailyRollingFileAppender.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/logger/log4j/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/logger/log4j/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/logger/log4j/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/logger/log4j/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/mapper/TenantBaseMapper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/mapper/class-use/TenantBaseMapper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/mapper/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/mapper/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/mapper/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/mapper/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/test/junit/BasicSpringDubboJunitTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/test/junit/class-use/BasicSpringDubboJunitTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/test/junit/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/test/junit/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/test/junit/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/test/junit/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/Arith.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/BeanUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/CSVUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/DES3Util.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/DateUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/HexUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/HostUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/HttpUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/LoggerUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/MD5Util.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/MapUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/MemcachedClient.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/NumberUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/PropertiesUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/RandomUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/RedisClient.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/SerializeUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/StringUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/WriteExcelUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/XMLUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/class-use/Arith.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/class-use/BeanUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/class-use/CSVUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/class-use/DES3Util.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/class-use/DateUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/class-use/HexUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/class-use/HostUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/class-use/HttpUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/class-use/LoggerUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/class-use/MD5Util.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/class-use/MapUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/class-use/MemcachedClient.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/class-use/NumberUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/class-use/PropertiesUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/class-use/RandomUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/class-use/RedisClient.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/class-use/SerializeUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/class-use/StringUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/class-use/WriteExcelUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/class-use/XMLUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/util/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/zookeeper/Config.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/zookeeper/ZooKeeperConfig.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/zookeeper/ZooKeeperFactory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/zookeeper/ZooKeeperPropertyPlaceholderConfigurer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/zookeeper/class-use/Config.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/zookeeper/class-use/ZooKeeperConfig.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/zookeeper/class-use/ZooKeeperFactory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/zookeeper/class-use/ZooKeeperPropertyPlaceholderConfigurer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/zookeeper/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/zookeeper/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/zookeeper/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/neil/core/zookeeper/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/package-list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/resources/background.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/resources/tab.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/resources/titlebar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/resources/titlebar_end.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/package-list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/neil-core.iml" afterPath="$PROJECT_DIR$/neil-core.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/neil/core/annotation/controller/annotation/Function.java" afterPath="$PROJECT_DIR$/src/main/java/com/neil/core/annotation/controller/annotation/Function.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/DataSource.java" afterPath="$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/DataSource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/HistoryDataParam.java" afterPath="$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/HistoryDataParam.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/MethodRemark.java" afterPath="$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/MethodRemark.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/NullLog.java" afterPath="$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/NullLog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/neil/core/context/DataSourceMethodInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/neil/core/context/DataSourceMethodInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/neil/core/context/MethodLogInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/neil/core/context/MethodLogInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/neil/core/context/ServiceMethodInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/neil/core/context/ServiceMethodInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/neil/core/db/datasource/RollbackInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/neil/core/db/datasource/RollbackInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/neil/core/util/DES3Util.java" afterPath="$PROJECT_DIR$/src/main/java/com/neil/core/util/DES3Util.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/neil/core/util/HexUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/neil/core/util/HexUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/neil/core/util/MemcachedClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/neil/core/util/MemcachedClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/neil/core/zookeeper/ZooKeeperPropertyPlaceholderConfigurer.java" afterPath="$PROJECT_DIR$/src/main/java/com/neil/core/zookeeper/ZooKeeperPropertyPlaceholderConfigurer.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,22 +207,102 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="339" column="32" lean-forward="false" selection-start-line="339" selection-start-column="32" selection-end-line="339" selection-end-column="32" />
+            <state relative-caret-position="2166">
+              <caret line="114" column="51" lean-forward="false" selection-start-line="114" selection-start-column="51" selection-end-line="114" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RollbackInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/db/datasource/RollbackInterceptor.java">
+      <file leaf-file-name="MemcachedClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/util/MemcachedClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="33" column="91" lean-forward="false" selection-start-line="33" selection-start-column="91" selection-end-line="33" selection-end-column="91" />
+            <state relative-caret-position="-94">
+              <caret line="33" column="15" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/util/HttpUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="39" column="44" lean-forward="false" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZooKeeperConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/zookeeper/ZooKeeperConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/zookeeper/Config.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZooKeeperFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/zookeeper/ZooKeeperFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZooKeeperPropertyPlaceholderConfigurer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/zookeeper/ZooKeeperPropertyPlaceholderConfigurer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppVariable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/config/AppVariable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SystemConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/config/SystemConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PropertyPlaceholderConfigurer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/neildev/MavenRepository/org/springframework/spring-beans/3.2.9.RELEASE/spring-beans-3.2.9.RELEASE-sources.jar!/org/springframework/beans/factory/config/PropertyPlaceholderConfigurer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -62,7 +326,12 @@
       <find>oralce.ojdbc.version</find>
       <find>jdcbc</find>
       <find>oralce.ojdbc</find>
+      <find>hutao</find>
+      <find>wanghuajian</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,7 +345,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="D:/neildev/MavenRepository/com/oracle/ojdbc6/11.2.0.4/ojdbc6-11.2.0.4.jar!/oracle/jdbc/OracleConnection.class" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neil/core/util/Arith.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neil/core/annotation/controller/annotation/Function.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/DataSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/HistoryDataParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/MethodRemark.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/NullLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neil/core/context/DataSourceMethodInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neil/core/context/MethodLogInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neil/core/context/ServiceMethodInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/neil/core/db/datasource/RollbackInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neil/core/util/DES3Util.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neil/core/util/HexUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neil/core/util/MemcachedClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neil/core/zookeeper/ZooKeeperPropertyPlaceholderConfigurer.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -186,16 +468,116 @@
             </path>
             <path>
               <item name="neil-core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="neil-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="neil" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neil-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neil-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="neil" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neil-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neil-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="neil" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neil-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neil-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="neil" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neil-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neil-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="neil" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neil-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neil-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="neil" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neil-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neil-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="neil" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neil-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neil-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="neil" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neil-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neil-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="neil" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,45 +699,56 @@
       <option name="presentableId" value="Default" />
       <updated>1508066208516</updated>
       <workItem from="1508066211127" duration="1432000" />
+      <workItem from="1508073072994" duration="247000" />
+      <workItem from="1508510108903" duration="1354000" />
     </task>
+    <task id="LOCAL-00001" summary="添加工具类备注">
+      <created>1508073129034</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1508073129034</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1432000" />
+    <option name="totallyTimeSpent" value="3033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26339287" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20735608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21162046" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26339287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -394,23 +787,69 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加工具类备注" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加工具类备注" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+        <state relative-caret-position="6441">
+          <caret line="339" column="32" lean-forward="false" selection-start-line="339" selection-start-column="32" selection-end-line="339" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/Slave.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/db/datasource/RollbackInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="91" lean-forward="false" selection-start-line="33" selection-start-column="91" selection-end-line="33" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/util/Arith.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -418,43 +857,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/annotation/controller/annotation/Function.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/db/datasource/RollbackInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="627">
+          <caret line="33" column="91" lean-forward="false" selection-start-line="33" selection-start-column="91" selection-end-line="33" selection-end-column="91" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/DataSource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/Slave.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/HistoryDataParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/NullLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/config/AppVariable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -462,23 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/context/DataSourceMethodInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/context/MethodLogInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -494,7 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -502,39 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/zookeeper/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/zookeeper/ZooKeeperConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/zookeeper/ZooKeeperFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/zookeeper/ZooKeeperPropertyPlaceholderConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="62" column="54" lean-forward="false" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -550,7 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -558,22 +921,181 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/util/Arith.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/annotation/controller/annotation/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/HistoryDataParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/MethodRemark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/annotation/service/annotation/NullLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/context/DataSourceMethodInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/context/MethodLogInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/context/ServiceMethodInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/db/datasource/RollbackInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="33" column="91" lean-forward="false" selection-start-line="33" selection-start-column="91" selection-end-line="33" selection-end-column="91" />
+        <state relative-caret-position="191">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/util/DES3Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/util/HexUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/util/MemcachedClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="33" column="15" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/zookeeper/ZooKeeperConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/zookeeper/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/zookeeper/ZooKeeperFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/neildev/MavenRepository/org/springframework/spring-beans/3.2.9.RELEASE/spring-beans-3.2.9.RELEASE-sources.jar!/org/springframework/beans/factory/config/PropertyPlaceholderConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/zookeeper/ZooKeeperPropertyPlaceholderConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/config/AppVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/config/SystemConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neil/core/util/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="39" column="44" lean-forward="false" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="339" column="32" lean-forward="false" selection-start-line="339" selection-start-column="32" selection-end-line="339" selection-end-column="32" />
+        <state relative-caret-position="2166">
+          <caret line="114" column="51" lean-forward="false" selection-start-line="114" selection-start-column="51" selection-end-line="114" selection-end-column="51" />
           <folding />
         </state>
       </provider>

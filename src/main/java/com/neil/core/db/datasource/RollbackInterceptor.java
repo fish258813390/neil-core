@@ -14,7 +14,7 @@
 //import oracle.jdbc.OracleConnection;
 //
 ///**
-// * @author wanghuajian 2016年9月28日
+// * @author neil 2016年9月28日
 // *
 // */
 //public class RollbackInterceptor extends JdbcInterceptor{

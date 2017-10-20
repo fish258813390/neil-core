@@ -31,7 +31,7 @@ import com.neil.core.config.SystemConfig;
  * 例如：MemcachedClient.getClient().add("key", 0, "value");
  * </p>
  *
- * @author wanghuajian 2015-6-30
+ * @author neil 2015-6-30
  */
 public class MemcachedClient {
     private static final Logger log = LoggerFactory.getLogger(MemcachedClient.class);
